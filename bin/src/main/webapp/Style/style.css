@@ -1,0 +1,87 @@
+li
+{
+    padding: 10px;
+}
+a{
+    font-size: 25px;
+}
+.btn
+{
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    width: 150px;
+    float: right;
+}
+#td1
+{
+    padding: 20px;
+    
+}
+#td2
+{
+    padding: 40px;
+}
+.upload
+{
+    
+    color: black;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    width: 150px;
+}
+.import-footer
+{
+font-size: 20px;
+text-decoration: underline;
+}
+body
+{
+    background-color: silver;
+}
+#trid
+{
+    padding: 15px;
+}
+.save
+{
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 15px;
+    width: 200px;
+    border: none;
+    color: whitesmoke;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.section
+{
+    border: 5px solid black;
+}
+.img
+{
+    height: 80px;
+    width: 100px;
+    margin: 10px;
+}
+.ptext
+{
+    margin-top: 60px;
+}
+.edit
+{
+    width: 60px;
+}
+.generate-map
+{
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 15px;
+    width: 400px;
+    border: none;
+    color: whitesmoke;
+    margin-left: 120px;
+    margin-top: 50px;
+}

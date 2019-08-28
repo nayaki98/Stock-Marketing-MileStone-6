@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">STOCK MARKETING</h1>
+    <div class="container">
+        <div class="row">
+            <button type="button" class="btn">Logout</button>
+        </div>
+        <br>
+        <div class="row">
+            <nav class="navbar navbar-inverse">
+                <ul class="nav navbar-nav col-lg-12 ">
+                    <li class="col-md-4"><a href="#">IPOs</a></li>
+                    <li class="col-md-4"><a href="#">Compare Company</a></li>
+                    <li class="col-md-4"><a href="#">Compare Sectors</a></li>
+                </ul>
+            </nav>
+        </div>
+        <table>
+            <tr>
+                <th id="trid"> Select Company/Sector:</th>
+                <td><select>
+                        <option value="volvo">Company</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <th id="trid">Select Stock Exchange:</th>
+                <td><select>
+                        <option value="BSE">BSE</option>
+                        <option value="NSE">NSE</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <th id="trid"> Company Name:</th>
+                <td><input type="text" name="cname"></td>
+            </tr>
+            <tr>
+                <th id="trid">From Period</th>
+                <th><input type="date" name="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To
+                    Period&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th><input type="date" name="date"></th>
+            </tr>
+            <tr>
+                <th id="trid"> Specify Periodicity:</th>
+                <td><input type="date" name="cname"></td>
+            </tr>
+            <tr>
+                <th id="trid"><input type="button" class="generate-map" name="save" value="Generate Map"></th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
